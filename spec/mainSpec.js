@@ -16,7 +16,7 @@ describe('DOM', () => {
 		assert.equal(typeof headingOneContent, 'string');
 	});
 
-	it("should have a mark element that equals 'insights' word", () => {
+	it("should have a mark element that equals 'insights'", () => {
 		const cardTitleEl = document.querySelector('.card__title');
 		const cardMark = cardTitleEl.querySelector('mark').textContent;
 
